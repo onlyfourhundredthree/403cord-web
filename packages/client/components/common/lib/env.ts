@@ -21,9 +21,6 @@ const DEFAULT_HOST =
 const DEFAULT_API_URL =
   getEnv("VITE_DEV_API_URL", true) || getEnv("VITE_API_URL") || STOAT_API;
 
-if (DEFAULT_API_URL !== STOAT_API && DEFAULT_HOST === STOAT_HOST)
-  throw "VITE_HOST required when VITE_API_URL is set!";
-
 export default {
   /** Default instance (without the protocol) */
   DEFAULT_HOST,
