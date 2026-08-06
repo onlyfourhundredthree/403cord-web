@@ -14,22 +14,13 @@ const fallbackAssets = resolve("scripts", "assets_fallback");
  */
 async function createSymlink() {
   try {
-    await lstat(revoltAssets);
-    if ((await readdir(revoltAssets)).length === 0) throw "Empty Directory";
-    await lnk(resolve(revoltAssets), resolve(publicFolder), {
+    await lnk(resolve(fallbackAssets), resolve(publicFolder), {
       rename: "assets",
     });
-    console.info(`Configured Stoat assets.`);
+    console.info(`Configured 403CORD fallback assets.`);
   } catch (error) {
-    if (error === "Empty Directory" || error.code === "ENOENT") {
-      await lnk(resolve(fallbackAssets), resolve(publicFolder), {
-        rename: "assets",
-      });
-      console.info(`Configured fallback assets.`);
-    } else {
-      console.error(error);
-      process.exit(-1);
-    }
+    console.error(error);
+    process.exit(-1);
   }
 }
 
