@@ -115,7 +115,7 @@ export function ServerContextMenu(props: { server: Server }) {
    */
   function openAdminPanel() {
     window.open(
-      `https://admin.stoatinternal.com/panel/inspect/server/${props.server.id}`,
+      `https://chat.403products.com/admin/panel/inspect/server/${props.server.id}`,
       "_blank",
     );
   }

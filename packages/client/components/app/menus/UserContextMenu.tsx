@@ -201,7 +201,7 @@ export function UserContextMenu(props: {
    */
   function openAdminPanel() {
     window.open(
-      `https://admin.stoatinternal.com/panel/inspect/user/${props.user.id}`,
+      `https://chat.403products.com/admin/panel/inspect/user/${props.user.id}`,
       "_blank",
     );
   }

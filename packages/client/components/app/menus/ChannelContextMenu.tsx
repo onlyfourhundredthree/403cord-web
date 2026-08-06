@@ -103,7 +103,7 @@ export function ChannelContextMenu(props: { channel: Channel }) {
    */
   function openAdminPanel() {
     window.open(
-      `https://admin.stoatinternal.com/panel/inspect/channel/${props.channel.id}`,
+      `https://chat.403products.com/admin/panel/inspect/channel/${props.channel.id}`,
       "_blank",
     );
   }
