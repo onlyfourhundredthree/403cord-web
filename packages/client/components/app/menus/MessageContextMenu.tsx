@@ -115,7 +115,7 @@ export function MessageContextMenu(props: {
   }
 
   /**
-   * Open message in Stoat Admin Panel
+   * Open message in 403Cord Admin Panel
    */
   function openAdminPanel() {
     window.open(

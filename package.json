@@ -1,7 +1,7 @@
 {
   "name": "stoat-for-web",
   "version": "0.14.1",
-  "description": "Stoat for Web: frontend software for Stoat",
+  "description": "403Cord for Web: frontend software for 403Cord",
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "eslint": "^9.26.0",

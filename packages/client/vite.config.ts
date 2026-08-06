@@ -42,8 +42,8 @@ export default defineConfig({
         type: "module",
       },
       manifest: {
-        name: "Stoat",
-        short_name: "Stoat",
+        name: "403Cord",
+        short_name: "403Cord",
         description: "User-first open source chat platform.",
         categories: ["communication", "chat", "messaging"],
         start_url: base,

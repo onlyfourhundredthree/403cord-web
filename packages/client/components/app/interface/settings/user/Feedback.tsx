@@ -24,7 +24,7 @@ export function Feedback() {
   const client = useClient();
   const instance = useInstance();
 
-  const showLoungeButton = instance.isStoat;
+  const showLoungeButton = instance.is403Cord;
   const isInLounge =
     client()!.servers.get("01F7ZSBSFHQ8TA81725KQCSDDP") !== undefined;
 
@@ -53,7 +53,7 @@ export function Feedback() {
             icon={<MdStar {...iconSize(22)} />}
             ignoreClick
             description={
-              <Trans>Suggest new Stoat features on GitHub discussions.</Trans>
+              <Trans>Suggest new 403Cord features on GitHub discussions.</Trans>
             }
           >
             <Trans>Submit feature suggestion</Trans>
@@ -100,7 +100,7 @@ export function Feedback() {
               }
               icon={<MdGroups3 />}
             >
-              <Trans>Go to the Stoat Lounge</Trans>
+              <Trans>Go to the 403Cord Lounge</Trans>
             </CategoryButton>
           </Match>
           <Match when={showLoungeButton && !isInLounge}>
@@ -119,7 +119,7 @@ export function Feedback() {
               }
               icon={<MdGroups3 />}
             >
-              <Trans>Join the Stoat Lounge</Trans>
+              <Trans>Join the 403Cord Lounge</Trans>
             </CategoryButton>
           </Match>
         </Switch>

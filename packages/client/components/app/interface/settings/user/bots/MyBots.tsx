@@ -63,9 +63,9 @@ function CreateBot() {
       <CategoryButton
         action="external"
         icon={<MdLibraryBooks {...iconSize(22)} />}
-        onClick={() => window.open("https://developers.stoat.chat", "_blank")}
+        onClick={() => window.open("https://developers.chat.403products.com", "_blank")}
         description={
-          <Trans>Learn more about how to create bots on Stoat.</Trans>
+          <Trans>Learn more about how to create bots on 403Cord.</Trans>
         }
       >
         <Trans>Developer Documentation</Trans>

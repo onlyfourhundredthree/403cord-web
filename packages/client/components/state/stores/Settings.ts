@@ -66,7 +66,7 @@ interface SettingsDefinition {
   "appearance:compact_mode": boolean;
 
   /**
-   * Indicate new users to Stoat
+   * Indicate new users to 403Cord
    * TODO: implement
    */
   // "appearance:show_account_age": boolean;

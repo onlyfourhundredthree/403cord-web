@@ -16,7 +16,7 @@ import { LoadingScreen, useSnackbar } from "@revolt/ui";
 
 import Instance, { _newClient } from "./Instance";
 
-export const StoatOrigin = new URL(`https://${STOAT_HOST}`).origin;
+export const 403CordOrigin = new URL(`https://${STOAT_HOST}`).origin;
 export const DefaultURL = new URL(`https://${CONFIGURATION.DEFAULT_HOST}`);
 export const DefaultHost = DefaultURL.host;
 const DefRoute = `/i/${DefaultHost}/`;
@@ -32,15 +32,15 @@ export function InstanceContext(props: { children?: JSXElement }) {
 
   const [inst, setInst] = createSignal<Instance>();
 
-  //Check Stoat instance
+  //Check 403Cord instance
   const host = [
     // historically...
-    "api.revolt.chat",
-    "beta.revolt.chat",
-    "revolt.chat",
+    "api.chat.403products.com",
+    "beta.chat.403products.com",
+    "chat.403products.com",
     // ... and now:
-    "api.stoat.chat",
-    "beta.stoat.chat",
+    "api.chat.403products.com",
+    "beta.chat.403products.com",
   ].includes(params.host)
     ? STOAT_HOST
     : params.host;
@@ -49,7 +49,7 @@ export function InstanceContext(props: { children?: JSXElement }) {
     console.error(e);
     if ((e as Error).message === "Failed to fetch") {
       const hStr = `'${host || DefaultHost}'`;
-      e = t`Couldn't fetch Stoat configuration from ${hStr}.`;
+      e = t`Couldn't fetch 403Cord configuration from ${hStr}.`;
     }
     snackbar.show({
       message: t`Oops, something went wrong! ${e}`,
@@ -91,7 +91,7 @@ export function InstanceContext(props: { children?: JSXElement }) {
     <Show
       when={instInit()}
       fallback={
-        <LoadingScreen isStoat={(host || DefaultHost) === STOAT_HOST} />
+        <LoadingScreen is403Cord={(host || DefaultHost) === STOAT_HOST} />
       }
     >
       <Dynamic component={instanceContext.Provider} value={instInit()}>

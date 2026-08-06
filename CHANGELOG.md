@@ -331,7 +331,7 @@
 * Adds a Docker Build for the Web Client ([#697](https://github.com/stoatchat/for-web/issues/697)) ([6c5970f](https://github.com/stoatchat/for-web/commit/6c5970f9865b3bfb5cdbcfceb99676f1a40cc3b8))
 * Enable video with an env var ([#847](https://github.com/stoatchat/for-web/issues/847)) ([928e898](https://github.com/stoatchat/for-web/commit/928e898bc16446dcbe50f720541fd5983fc80d91))
 * make gifbox URL configurable via VITE_GIFBOX_URL env var ([#695](https://github.com/stoatchat/for-web/issues/695)) ([eeca7c9](https://github.com/stoatchat/for-web/commit/eeca7c903d3152a4dc176f652e52d89ce9763e36))
-* start Stoat in tray on startup ([#802](https://github.com/stoatchat/for-web/issues/802)) ([cd1497b](https://github.com/stoatchat/for-web/commit/cd1497b76d8221d55cf57fd04845f940477913a5))
+* start 403Cord in tray on startup ([#802](https://github.com/stoatchat/for-web/issues/802)) ([cd1497b](https://github.com/stoatchat/for-web/commit/cd1497b76d8221d55cf57fd04845f940477913a5))
 
 
 ### Bug Fixes

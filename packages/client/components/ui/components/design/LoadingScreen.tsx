@@ -7,20 +7,20 @@ import Instance from "@revolt/instance/Instance";
 import { Button, CircularProgress, Symbol, Text } from "@revolt/ui";
 
 /**
- * Stoat status page URL
+ * 403Cord status page URL
  */
-const STATUS_PAGE_URL = "https://status.stoat.chat";
+const STATUS_PAGE_URL = "https://status.chat.403products.com";
 
 /**
  * Connection troubleshooting knowledge base article
  */
 const TROUBLESHOOTING_URL =
-  "https://support.stoat.chat/kb/troubleshooting/connection-issues";
+  "https://support.chat.403products.com/kb/troubleshooting/connection-issues";
 
 /**
  * Status API queried when the client is slow to connect
  */
-const STATUS_API_URL = "https://stoat.chat/-/status";
+const STATUS_API_URL = "https://chat.403products.com/-/status";
 
 /**
  * How long to wait for a proper connection before asking the status API
@@ -57,7 +57,7 @@ type StatusResponse = {
  * a troubleshooting notice is shown to help the user diagnose their connection issues.
  * We also link to the support page there.
  */
-export function LoadingScreen(props: { isStoat?: boolean }) {
+export function LoadingScreen(props: { is403Cord?: boolean }) {
   const instance = useInstance() as Instance | undefined;
   const { t } = useLingui();
 
@@ -91,8 +91,8 @@ export function LoadingScreen(props: { isStoat?: boolean }) {
 
     // Check the status API for an ongoing incident.
     const statusTimer = setTimeout(async () => {
-      //TODO Fetch status from current instance backend instead of only stoat.chat
-      if (!props.isStoat && !instance?.isStoat) return;
+      //TODO Fetch status from current instance backend instead of only chat.403products.com
+      if (!props.is403Cord && !instance?.is403Cord) return;
       try {
         const res = await fetch(STATUS_API_URL, { signal: controller.signal });
         const data = (await res.json()) as StatusResponse;

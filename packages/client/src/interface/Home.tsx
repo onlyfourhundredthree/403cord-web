@@ -98,8 +98,8 @@ export function HomePage() {
   const client = useClient();
   const instance = useInstance();
 
-  // check if we're stoat.chat; if so, check if the user is in the Lounge
-  const showLoungeButton = instance.isStoat;
+  // check if we're chat.403products.com; if so, check if the user is in the Lounge
+  const showLoungeButton = instance.is403Cord;
   const isInLounge =
     client()!.servers.get("01F7ZSBSFHQ8TA81725KQCSDDP") !== undefined;
 
@@ -151,7 +151,7 @@ export function HomePage() {
                   }
                   icon={<MdGroups3 />}
                 >
-                  <Trans>Go to the Stoat Lounge</Trans>
+                  <Trans>Go to the 403Cord Lounge</Trans>
                 </CategoryButton>
               </Match>
               <Match when={showLoungeButton && !isInLounge}>
@@ -172,7 +172,7 @@ export function HomePage() {
                   }
                   icon={<MdGroups3 />}
                 >
-                  <Trans>Join the Stoat Lounge</Trans>
+                  <Trans>Join the 403Cord Lounge</Trans>
                 </CategoryButton>
               </Match>
             </Switch>
@@ -184,11 +184,11 @@ export function HomePage() {
               }
               icon={<MdPayments />}
             >
-              <Trans>Donate to Stoat</Trans>
+              <Trans>Donate to 403Cord</Trans>
             </CategoryButton>
           </SeparatedColumn>
           <SeparatedColumn>
-            <Show when={instance.isStoat}>
+            <Show when={instance.is403Cord}>
               <CategoryButton
                 onClick={() => navigate("/discover")}
                 description={
@@ -198,7 +198,7 @@ export function HomePage() {
                 }
                 icon={<MdExplore />}
               >
-                <Trans>Discover Stoat</Trans>
+                <Trans>Discover 403Cord</Trans>
               </CategoryButton>
             </Show>
             <CategoryButton
@@ -216,7 +216,7 @@ export function HomePage() {
               }
               icon={<MdRateReview {...iconSize(22)} />}
             >
-              <Trans>Give feedback on Stoat</Trans>
+              <Trans>Give feedback on 403Cord</Trans>
             </CategoryButton>
             <CategoryButton
               onClick={() => openModal({ type: "settings", config: "user" })}

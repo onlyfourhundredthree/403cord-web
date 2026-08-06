@@ -1,5 +1,5 @@
 # Feature Matrix
-Comparison of implemented features across Revolt's clients.
+Comparison of implemented features across 403Cord's clients.
 
 | Category | Subcategory | Feature |   | Revite | Frontend | Android | iOS | Priority |
 |---|---|---|---|:-:|:-:|:-:|:-:|:-:|
@@ -37,7 +37,7 @@ Comparison of implemented features across Revolt's clients.
 |   |   |   | Reorder Servers | ✅ | ✅ | ❌ | ❌ | P1 Preferred |
 |   |   |   | Create Server | ✅ | ✅ | ✅ | ❌ | P0 Must |
 |   |   |   | Join Server | ✅ | ✅ | ✅ | ✅ | P0 Must |
-|   |   |   | Revolt Discover | ✅ | ✅ | ✅ | ✅ | P0 Must |
+|   |   |   | 403Cord Discover | ✅ | ✅ | ✅ | ✅ | P0 Must |
 |   | Roles |   | Coloured Usernames | ✅ | ✅ | ✅ | ✅ | P0 Must |
 |   | Users |   | Change Server Avatar | ✅ | ✅ | ❌ | ❌ | P1 Preferred |
 |   |   |   | Change Nickname | ✅ | ✅ | ❌ | ❌ | P1 Preferred |
@@ -177,7 +177,7 @@ Comparison of implemented features across Revolt's clients.
 |   |   | Desktop | App | ✅ | ❌ | N/A | N/A | P1 Preferred |
 |   |   |   | Start with Computer | ✅ | ❌ | N/A | N/A | P2 Best Effort |
 |   |   |   | Minimise to Tray | ✅ | ❌ | N/A | N/A | P2 Best Effort |
-|   | Revolt | Bots | Create Bot | ✅ | ✅ | ❌ | ✅ | P3 Unimportant |
+|   | 403Cord | Bots | Create Bot | ✅ | ✅ | ❌ | ✅ | P3 Unimportant |
 |   |   |   | List Bots | ✅ | ✅ | ❌ | ✅ | P3 Unimportant |
 |   |   |   | Update Information | ✅ | ✅ | ❌ | ❌ | P3 Unimportant |
 |   |   |   | Update Icon | ✅ | ✅ | ❌ | ❌ | P3 Unimportant |

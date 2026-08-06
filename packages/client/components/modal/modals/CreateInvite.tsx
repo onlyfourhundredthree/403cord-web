@@ -44,7 +44,7 @@ export function CreateInviteModal(
         .createInvite()
         .then(({ _id }) =>
           setLink(
-            instance.isStoat
+            instance.is403Cord
               ? `https://stt.gg/${_id}`
               : instance.href(`/invite/${_id}`),
           ),

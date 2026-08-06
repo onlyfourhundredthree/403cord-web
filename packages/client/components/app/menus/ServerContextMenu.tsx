@@ -111,7 +111,7 @@ export function ServerContextMenu(props: { server: Server }) {
   }
 
   /**
-   * Open server in Stoat Admin Panel
+   * Open server in 403Cord Admin Panel
    */
   function openAdminPanel() {
     window.open(

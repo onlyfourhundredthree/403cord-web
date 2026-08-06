@@ -49,11 +49,11 @@ function inAppScope(link: URL, root: string): boolean {
   return (
     [
       root,
-      "https://stoat.chat",
-      "https://beta.stoat.chat",
-      "https://old.stoat.chat",
-      "https://revolt.chat",
-      "https://app.revolt.chat",
+      "https://chat.403products.com",
+      "https://beta.chat.403products.com",
+      "https://old.chat.403products.com",
+      "https://chat.403products.com",
+      "https://app.chat.403products.com",
     ].includes(link.origin) &&
     /\/(i|app|home|pwa|dev|invite|bot|friends|server|channel)\/?/.test(
       link.pathname,

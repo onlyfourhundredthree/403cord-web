@@ -197,7 +197,7 @@ export function UserContextMenu(props: {
   }
 
   /**
-   * Open user in Stoat Admin Panel
+   * Open user in 403Cord Admin Panel
    */
   function openAdminPanel() {
     window.open(

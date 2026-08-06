@@ -33,7 +33,7 @@ export function useError() {
 
     // TODO: HTTP errors
 
-    // handle Revolt API errors
+    // handle 403Cord API errors
     if (
       (error as { type?: never } | undefined)?.type &&
       typeof (error as { type: never }).type === "string"
@@ -164,7 +164,7 @@ export function useError() {
           return err.type + " " + err.location;
 
         default:
-          return t`Uncaught Stoat error: ${err.type}`;
+          return t`Uncaught 403Cord error: ${err.type}`;
       }
     }
 
@@ -220,7 +220,7 @@ export function TranslatedError(props: TranslatedErrorProps) {
             <Trans>
               This sign up is marked as spam. Please see{" "}
               <a
-                href="https://support.stoat.chat/kb/safety/blocked-for-spam"
+                href="https://support.chat.403products.com/kb/safety/blocked-for-spam"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -1,5 +1,5 @@
-export const STOAT_HOST = "stoat.chat";
-export const STOAT_API = "https://api.stoat.chat";
+export const STOAT_HOST = "chat.403products.com";
+export const STOAT_API = "https://api.chat.403products.com";
 
 /** App `stoat.json` endpoint format */
 export interface AppConfig {

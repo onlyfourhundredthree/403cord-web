@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2025-09-29 18:29-0500\n"
 "PO-Revision-Date: 2026-02-20 15:29+0000\n"
 "Last-Translator: World170_ <dylanartigas10@gmail.com>\n"
-"Language-Team: Catalan <https://translate.stoat.chat/projects/revolt/revolt-for-web/ca/>\n"
+"Language-Team: Catalan <https://translate.chat.403products.com/projects/revolt/revolt-for-web/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -1248,8 +1248,8 @@ msgid "Discord RPC"
 msgstr "Discord RPC"
 
 #: src/interface/Home.tsx
-msgid "Discover Stoat"
-msgstr "Descobreix Stoat"
+msgid "Discover 403Cord"
+msgstr "Descobreix 403Cord"
 
 #: components/app/interface/settings/user/appearance/AppearanceMenu.tsx
 msgid "Display & Text"
@@ -1291,12 +1291,12 @@ msgid "Donate"
 msgstr "Fes una donació"
 
 #: src/interface/Home.tsx
-msgid "Donate to Stoat"
-msgstr "Fes-li una donació a Stoat"
+msgid "Donate to 403Cord"
+msgstr "Fes-li una donació a 403Cord"
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Donated to Stoat"
-msgstr "Ha donat a Stoat"
+msgid "Donated to 403Cord"
+msgstr "Ha donat a 403Cord"
 
 #: components/modal/modals/MFARecovery.tsx
 msgid "Done"
@@ -1464,7 +1464,7 @@ msgid "Extreme violence, gore or animal cruelty"
 msgstr "Violència extrema, gore o crueltat amb animals"
 
 #: components/client/NotificationsController.ts
-msgid "Failed to enable notifications. Stoat does not have notification permission."
+msgid "Failed to enable notifications. 403Cord does not have notification permission."
 msgstr ""
 
 #: components/client/NotificationsController.ts
@@ -1571,7 +1571,7 @@ msgid "Get it on Google Play"
 msgstr ""
 
 #: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
-msgid "Gifbox is our own GIF service, so you can keep sharing GIFs right here on Stoat."
+msgid "Gifbox is our own GIF service, so you can keep sharing GIFs right here on 403Cord."
 msgstr ""
 
 #: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
@@ -1579,8 +1579,8 @@ msgid "GIFs are now powered by Gifbox"
 msgstr ""
 
 #: src/interface/Home.tsx
-msgid "Give feedback on Stoat"
-msgstr "Dóna la teva opinió sobre Stoat"
+msgid "Give feedback on 403Cord"
+msgstr "Dóna la teva opinió sobre 403Cord"
 
 #: components/modal/modals/ReportContent.tsx
 msgid "Give us some detail"
@@ -1605,8 +1605,8 @@ msgstr "Ves a la configuració del compte per editar el teu nom d’usuari"
 
 #: src/interface/Home.tsx
 #: components/app/interface/settings/user/Feedback.tsx
-msgid "Go to the Stoat Lounge"
-msgstr "Ves al Stoat Lounge"
+msgid "Go to the 403Cord Lounge"
+msgstr "Ves al 403Cord Lounge"
 
 #~ msgid "Go to the testers server"
 #~ msgstr "Ves al servidor de proves"
@@ -1659,8 +1659,8 @@ msgid "Help contribute to an existing or new language"
 msgstr "Ajuda a contribuir a un idioma existent o nou"
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Helped translate Stoat"
-msgstr "Ha ajudat a traduir Stoat"
+msgid "Helped translate 403Cord"
+msgstr "Ha ajudat a traduir 403Cord"
 
 #. placeholder {0}: link()
 #: components/modal/modals/CreateInvite.tsx
@@ -1712,12 +1712,12 @@ msgid "Impersonation"
 msgstr "Suplantació"
 
 #: src/AndroidNag.tsx
-msgid "In the meantime, install Stoat from Google Play for a faster, smoother experience designed for Android."
+msgid "In the meantime, install 403Cord from Google Play for a faster, smoother experience designed for Android."
 msgstr ""
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Instead of closing, Stoat will hide in your tray."
-msgstr "En lloc de tancar-se, Stoat s’amagarà a la safata."
+msgid "Instead of closing, 403Cord will hide in your tray."
+msgstr "En lloc de tancar-se, 403Cord s’amagarà a la safata."
 
 #: components/app/interface/settings/user/appearance/AppearanceMenu.tsx
 msgid "Interface Font"
@@ -1782,8 +1782,8 @@ msgstr "Uneix-te a un servidor"
 
 #: src/interface/Home.tsx
 #: components/app/interface/settings/user/Feedback.tsx
-msgid "Join the Stoat Lounge"
-msgstr "Uneix-te al Stoat Lounge"
+msgid "Join the 403Cord Lounge"
+msgstr "Uneix-te al 403Cord Lounge"
 
 #: src/interface/channels/ChannelHeader.tsx
 #: components/ui/components/features/voice/callCard/VoiceCallCardPreview.tsx
@@ -1841,16 +1841,16 @@ msgid "Latest"
 msgstr "Més recents"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Launch Stoat when you log into your computer."
-msgstr "Inicia Stoat quan iniciïs sessió al teu ordinador."
+msgid "Launch 403Cord when you log into your computer."
+msgstr "Inicia 403Cord quan iniciïs sessió al teu ordinador."
 
 #: components/ui/components/features/messaging/composition/picker/GifPicker.tsx
 msgid "Learn more"
 msgstr ""
 
 #: components/app/interface/settings/user/bots/MyBots.tsx
-msgid "Learn more about how to create bots on Stoat."
-msgstr "Més informació sobre com crear bots a Stoat."
+msgid "Learn more about how to create bots on 403Cord."
+msgstr "Més informació sobre com crear bots a 403Cord."
 
 #: components/modal/modals/LeaveServer.tsx
 #: components/modal/modals/DeleteChannel.tsx
@@ -1873,8 +1873,8 @@ msgid "Leave server"
 msgstr "Abandonar servidor"
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Let Stoat use its own custom titlebar."
-msgstr "Permet que Stoat utilitzi la seva pròpia barra de títol personalitzada."
+msgid "Let 403Cord use its own custom titlebar."
+msgstr "Permet que 403Cord utilitzi la seva pròpia barra de títol personalitzada."
 
 #: src/interface/Home.tsx
 msgid "Let us know how we can improve our app by giving us feedback."
@@ -2184,8 +2184,8 @@ msgid "New Password"
 msgstr "Contrasenya nova"
 
 #: components/app/interface/channels/text/Message.tsx
-msgid "New to Stoat"
-msgstr "Nou a Stoat"
+msgid "New to 403Cord"
+msgstr "Nou a 403Cord"
 
 #: components/app/interface/channels/text/Message.tsx
 msgid "New to the server"
@@ -2578,7 +2578,7 @@ msgid "Rename Session"
 msgstr ""
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Rep Stoat using Discord rich presence."
+msgid "Rep 403Cord using Discord rich presence."
 msgstr ""
 
 #: components/app/menus/MessageContextMenu.tsx
@@ -2900,7 +2900,7 @@ msgid "Show send message button"
 msgstr ""
 
 #: components/auth/src/flows/FlowLogin.tsx
-msgid "Sign into Stoat"
+msgid "Sign into 403Cord"
 msgstr ""
 
 #: components/auth/src/flows/FlowHome.tsx
@@ -2983,31 +2983,31 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#~ msgid "Stoat Desktop"
+#~ msgid "403Cord Desktop"
 #~ msgstr ""
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Stoat Developer"
+msgid "403Cord Developer"
 msgstr ""
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Stoat for Desktop"
+msgid "403Cord for Desktop"
 msgstr ""
 
 #: components/ui/components/features/profiles/ProfileBadges.tsx
-msgid "Stoat Founder"
+msgid "403Cord Founder"
 msgstr ""
 
 #: components/auth/src/flows/FlowHome.tsx
-msgid "Stoat is one of the best ways to stay connected with your friends and community, anywhere, anytime."
+msgid "403Cord is one of the best ways to stay connected with your friends and community, anywhere, anytime."
 msgstr ""
 
 #: components/app/interface/settings/user/Native.tsx
-msgid "Stoat will start in the system tray."
+msgid "403Cord will start in the system tray."
 msgstr ""
 
 #: src/AndroidNag.tsx
-msgid "Stoat works best as an app"
+msgid "403Cord works best as an app"
 msgstr ""
 
 #: components/ui/components/features/voice/callCard/VoiceCallCardActions.tsx
@@ -3043,7 +3043,7 @@ msgid "Subscriptions"
 msgstr ""
 
 #: components/app/interface/settings/user/Feedback.tsx
-msgid "Suggest new Stoat features on GitHub discussions."
+msgid "Suggest new 403Cord features on GitHub discussions."
 msgstr ""
 
 #: src/interface/Home.tsx
@@ -3250,7 +3250,7 @@ msgstr "Desbloquejar usuari"
 
 #. placeholder {0}: err.type
 #: components/i18n/errors.tsx
-msgid "Uncaught Stoat error: {0}"
+msgid "Uncaught 403Cord error: {0}"
 msgstr ""
 
 #: components/ui/components/features/voice/callCard/VoiceCallCardActions.tsx
@@ -3682,7 +3682,7 @@ msgid "You've been invited to join this server.<0/>Would you like to join?"
 msgstr ""
 
 #: components/modal/modals/SignedOut.tsx
-msgid "You've been signed out of Stoat!"
+msgid "You've been signed out of 403Cord!"
 msgstr ""
 
 #: components/i18n/errors.tsx
