@@ -88,7 +88,7 @@ export function Discover() {
   // Render the URL once, update path in browser through messaging
   const query = new URLSearchParams(location.query as Record<string, string>);
   query.set("embedded", "true");
-  const src = `https://stt.gg/${location.pathname}?${query}`;
+  const src = `https://chat.403products.com/invite/${location.pathname}?${query}`;
 
   return <Base ref={setRef} src={src} />;
 }
