@@ -220,7 +220,7 @@ export function TranslatedError(props: TranslatedErrorProps) {
             <Trans>
               This sign up is marked as spam. Please see{" "}
               <a
-                href="https://support.chat.403products.com/kb/safety/blocked-for-spam"
+                href="https://chat.403products.com/kb/safety/blocked-for-spam"
                 target="_blank"
                 rel="noreferrer"
               >

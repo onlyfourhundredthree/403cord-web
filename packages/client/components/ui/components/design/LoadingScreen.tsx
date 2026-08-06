@@ -9,13 +9,13 @@ import { Button, CircularProgress, Symbol, Text } from "@revolt/ui";
 /**
  * 403Cord status page URL
  */
-const STATUS_PAGE_URL = "https://status.chat.403products.com";
+const STATUS_PAGE_URL = "https://chat.403products.com";
 
 /**
  * Connection troubleshooting knowledge base article
  */
 const TROUBLESHOOTING_URL =
-  "https://support.chat.403products.com/kb/troubleshooting/connection-issues";
+  "https://chat.403products.com/kb/troubleshooting/connection-issues";
 
 /**
  * Status API queried when the client is slow to connect
