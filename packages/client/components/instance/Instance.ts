@@ -5,14 +5,14 @@ import { CONFIGURATION } from "@revolt/common";
 import { AppConfig, STOAT_HOST } from "@revolt/common/lib/env";
 import { Client, UserLimits } from "stoat.js";
 
-import { DefaultHost, 403CordOrigin } from ".";
+import { DefaultHost, StoatOrigin } from ".";
 
 const R_RelPath = /^\/i\/[^/]+/;
 
 export default class Instance {
   readonly host?: string;
   readonly origin: string;
-  readonly is403Cord: boolean;
+  readonly isStoat: boolean;
   readonly #base;
   readonly #nav;
 
@@ -56,8 +56,8 @@ export default class Instance {
 
     const hostUrl = new URL(`https://${host}`);
     this.origin = hostUrl.origin;
-    this.is403Cord = host === STOAT_HOST;
-    this.#base = this.is403Cord ? "" : `/i/${host}`;
+    this.isStoat = host === STOAT_HOST;
+    this.#base = this.isStoat ? "" : `/i/${host}`;
     this.#nav = nav;
   }
 
@@ -78,7 +78,7 @@ export default class Instance {
    * @param base Defaults to the base path of this instance
    */
   href = (path: string, pathOnly?: boolean, base?: string) =>
-    (pathOnly ? "" : 403CordOrigin) + (base ? `/i/${base}` : this.#base) + path;
+    (pathOnly ? "" : StoatOrigin) + (base ? `/i/${base}` : this.#base) + path;
 
   /** Convert path to relative form, stripping instance prefix (if any)
    * @param path Defaults to `location.pathname` (non-reactive,
@@ -90,7 +90,7 @@ export default class Instance {
   switchTo = (host: string) =>
     this.#nav(this.href(Instance.relPath(), true, host));
 
-  /** Create a new 403Cord.js client, disposing the old one */
+  /** Create a new Stoat.js client, disposing the old one */
   newClient() {
     //Reuse initial client for first login only
     if (this.#firstInit) {

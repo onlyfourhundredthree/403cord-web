@@ -8,7 +8,7 @@ interface ChannelPartial {
   name?: string;
 }
 
-interface 403CordPushNotification {
+interface StoatPushNotification {
   title?: string;
   author?: string;
   body: string;
@@ -32,7 +32,7 @@ self.addEventListener("push", (event) => {
   if (!event.data) return;
   const payload = event.data.text();
 
-  const notification: 403CordPushNotification = JSON.parse(payload);
+  const notification: StoatPushNotification = JSON.parse(payload);
 
   if (!notification.title) {
     if (notification.channel) {

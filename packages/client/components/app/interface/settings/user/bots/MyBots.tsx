@@ -65,7 +65,7 @@ function CreateBot() {
         icon={<MdLibraryBooks {...iconSize(22)} />}
         onClick={() => window.open("https://developers.chat.403products.com", "_blank")}
         description={
-          <Trans>Learn more about how to create bots on 403Cord.</Trans>
+          <Trans>Learn more about how to create bots on Stoat.</Trans>
         }
       >
         <Trans>Developer Documentation</Trans>

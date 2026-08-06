@@ -16,7 +16,7 @@ import { LoadingScreen, useSnackbar } from "@revolt/ui";
 
 import Instance, { _newClient } from "./Instance";
 
-export const 403CordOrigin = new URL(`https://${STOAT_HOST}`).origin;
+export const StoatOrigin = new URL(`https://${STOAT_HOST}`).origin;
 export const DefaultURL = new URL(`https://${CONFIGURATION.DEFAULT_HOST}`);
 export const DefaultHost = DefaultURL.host;
 const DefRoute = `/i/${DefaultHost}/`;
@@ -91,7 +91,7 @@ export function InstanceContext(props: { children?: JSXElement }) {
     <Show
       when={instInit()}
       fallback={
-        <LoadingScreen is403Cord={(host || DefaultHost) === STOAT_HOST} />
+        <LoadingScreen isStoat={(host || DefaultHost) === STOAT_HOST} />
       }
     >
       <Dynamic component={instanceContext.Provider} value={instInit()}>

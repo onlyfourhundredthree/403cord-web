@@ -144,7 +144,7 @@ function GifboxExplainer() {
         <ExplainerBody>
           <Trans>
             Gifbox is our own GIF service, so you can keep sharing GIFs right
-            here on 403Cord.
+            here on Stoat.
           </Trans>
         </ExplainerBody>
         <ExplainerActions>

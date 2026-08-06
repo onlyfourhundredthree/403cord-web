@@ -57,7 +57,7 @@ type StatusResponse = {
  * a troubleshooting notice is shown to help the user diagnose their connection issues.
  * We also link to the support page there.
  */
-export function LoadingScreen(props: { is403Cord?: boolean }) {
+export function LoadingScreen(props: { isStoat?: boolean }) {
   const instance = useInstance() as Instance | undefined;
   const { t } = useLingui();
 
@@ -92,7 +92,7 @@ export function LoadingScreen(props: { is403Cord?: boolean }) {
     // Check the status API for an ongoing incident.
     const statusTimer = setTimeout(async () => {
       //TODO Fetch status from current instance backend instead of only chat.403products.com
-      if (!props.is403Cord && !instance?.is403Cord) return;
+      if (!props.isStoat && !instance?.isStoat) return;
       try {
         const res = await fetch(STATUS_API_URL, { signal: controller.signal });
         const data = (await res.json()) as StatusResponse;

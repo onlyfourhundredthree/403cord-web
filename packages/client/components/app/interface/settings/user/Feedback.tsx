@@ -24,7 +24,7 @@ export function Feedback() {
   const client = useClient();
   const instance = useInstance();
 
-  const showLoungeButton = instance.is403Cord;
+  const showLoungeButton = instance.isStoat;
   const isInLounge =
     client()!.servers.get("01F7ZSBSFHQ8TA81725KQCSDDP") !== undefined;
 

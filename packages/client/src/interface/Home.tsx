@@ -99,7 +99,7 @@ export function HomePage() {
   const instance = useInstance();
 
   // check if we're chat.403products.com; if so, check if the user is in the Lounge
-  const showLoungeButton = instance.is403Cord;
+  const showLoungeButton = instance.isStoat;
   const isInLounge =
     client()!.servers.get("01F7ZSBSFHQ8TA81725KQCSDDP") !== undefined;
 
@@ -188,7 +188,7 @@ export function HomePage() {
             </CategoryButton>
           </SeparatedColumn>
           <SeparatedColumn>
-            <Show when={instance.is403Cord}>
+            <Show when={instance.isStoat}>
               <CategoryButton
                 onClick={() => navigate("/discover")}
                 description={
